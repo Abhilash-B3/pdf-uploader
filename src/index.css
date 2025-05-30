@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: #f6f9fb;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.toolbar-btn {
+  background: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 0.5rem 0.65rem;
+  border-radius: 4px;
+  margin-right: 2px;
+  color: #333;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.toolbar-btn.active,
+.toolbar-btn:hover {
+  background: #0070f3;
+  color: #fff;
+}
+input[disabled] {
+  background: #f3f3f3;
+  color: #bbb;
+}

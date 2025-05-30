@@ -1,0 +1,60 @@
+.app-container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 24px;
+  background: #f5f8fa;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.07);
+}
+header {
+  padding-bottom: 16px;
+  text-align: center;
+}
+footer {
+  margin-top: 32px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+.pdf-uploader {
+  margin-bottom: 20px;
+}
+.toolbar {
+  margin: 18px 0;
+  display: flex;
+  gap: 16px;
+}
+.toolbar button {
+  padding: 8px 18px;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.toolbar button.active, .toolbar button:hover {
+  background: #0070f3;
+  color: #fff;
+}
+.save-btn {
+  background: #28a745;
+  color: #fff;
+  border: none;
+}
+.pdf-viewer {
+  margin-top: 16px;
+  position: relative;
+  background: #eee;
+  padding: 16px;
+  border-radius: 6px;
+}
+.pdf-controls {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.fabric-canvas {
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
